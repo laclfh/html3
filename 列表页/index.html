@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>电齿虎音乐官方网站首页</title>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/my.js"></script>
+<link rel="stylesheet" href="css/list.css">
+<link rel="stylesheet" href="css/audio.css">
+  </head>
+
+<body>
+<!--  header-->
+<div class="header_lsit">
+  <div class="logo"><img src="images/logo.png" alt=""></div>
+  <div class="top_btn">
+    <a href="" class="login">登录</a>
+    <a href="" class="regit">注册</a>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="#">音乐风格</a></li>
+      <li><a href="#">音乐人</a></li>
+      <li><a href="#">素材</a></li>
+      <li><a href="#">购物车</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--列表内容-->
+<div class="music_list_cnt">
+  <div class="music_list">
+  <div class="music_List_left">
+    <div class="list_search">
+      <form action="">
+        <input type="text" name="song_n" class="song_n">
+      </form>
+    </div>
+<!--    类别选择-->
+    <div id="sizer">
+        <form action="#" method="get" accept-charset="utf-8">
+        <fieldset class="radios">
+                <h3>音乐类型<span><a href="">清除全部</a></span></h3>
+                <label class="label_radio" for="radio-01">
+                <input name="sample-radio" id="radio-01" value="1" type="radio" checked />
+                全部类型</label>
+                <label class="label_radio" for="radio-02">
+                <input name="sample-radio" id="radio-02" value="1" type="radio" />
+                嘻哈</label>
+                <label class="label_radio" for="radio-03">
+                <input name="sample-radio" id="radio-03" value="1" type="radio" />
+                流行</label>
+                <label class="label_radio" for="radio-04">
+                <input name="sample-radio" id="radio-04" value="1" type="radio" />
+                R&B</label>
+                <label class="label_radio" for="radio-05">
+                <input name="sample-radio" id="radio-05" value="1" type="radio" />
+                摇滚</label>
+                <label class="label_radio" for="radio-06">
+                <input name="sample-radio" id="radio-06" value="1" type="radio" />
+                爵士</label>
+                <label class="label_radio" for="radio-07">
+                <input name="sample-radio" id="radio-07" value="1" type="radio" />
+                世界</label>
+                <label class="label_radio" for="radio-08">
+                <input name="sample-radio" id="radio-08" value="1" type="radio" />
+                其他</label>
+            </fieldset>
+    </form>
+        <form action="#" method="get" accept-charset="utf-8">
+        <fieldset class="radios">
+                <h3>排序方式</h3>
+                <label class="label_radio" for="radio-09">
+                <input name="sample-radio" id="radio-09" value="1" type="radio" checked />
+                最热</label>
+                <label class="label_radio" for="radio-10">
+                <input name="sample-radio" id="radio-10" value="1" type="radio" />
+                飙升</label>
+                <label class="label_radio" for="radio-11">
+                <input name="sample-radio" id="radio-11" value="1" type="radio" />
+                最新</label>
+                <label class="label_radio" for="radio-12">
+                <input name="sample-radio" id="radio-12" value="1" type="radio" />
+                价格（由低到高）</label>
+            </fieldset>
+    </form>
+    <div class="aaa">
+      <h3>BPM</h3>
+    <div class="box1"></div>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script>
+			$('.box1').slide({
+				range: true,
+				ratio: '300',
+				value: [1, 300],
+				clickBack: function(res){
+					console.log(res)
+				}
+			})
+			
+	</script>   
+    </div>
+    <div class="ipnut_num">
+      <input type="text" class="num" value="60"><span>-</span><input type="text" class="num" value="280">
+    </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+<script>
+    function setupLabel() {
+        if ($('.label_check input').length) {
+            $('.label_check').each(function(){ 
+                $(this).removeClass('c_on');
+            });
+            $('.label_check input:checked').each(function(){ 
+                $(this).parent('label').addClass('c_on');
+            });                
+        };
+        if ($('.label_radio input').length) {
+            $('.label_radio').each(function(){ 
+                $(this).removeClass('r_on');
+            });
+            $('.label_radio input:checked').each(function(){ 
+                $(this).parent('label').addClass('r_on');
+            });
+        };
+    };
+    $(document).ready(function(){
+        $('body').addClass('has-js');
+        $('.label_check, .label_radio').click(function(){
+            setupLabel();
+        });
+        setupLabel(); 
+    });
+</script>
+  </div>
+  <div class="music_List_right">
+    <div class="r_top">
+      <div class="fg_title">风格包含：</div><p>Trap<span><img src="images/delect_btn.png" alt=""></span></p><p>Drake<span><img src="images/delect_btn.png" alt=""></span></p>
+    </div>
+    <div class="themu_list">
+      <div class="themu_list_cnt">
+        <div class="themu_list_cnt_l"><img src="images/zuopin.png" alt=""></div>
+        <div class="themu_list_cnt_c">
+          <div class="themu_list_cnt_c_title">Mindless</div>
+          <div class="tips"><span>Dyna$ty</span><span class="dian">·</span><span>浏览次数：188次</span><span class="dian">·</span><span>BPM:140 </span></div>
+          <div class="small_tip"><span>Trap</span><span>Drake</span><span>Travis Scott</span></div>
+        </div>
+        <div class="themu_list_cnt_r">
+          <p><img src="images/heart.png" alt=""></p><p><img src="images/plus.png" alt=""></p><p><img src="images/share.png" alt=""></p><p class="price">¥200</p>
+        </div>
+      </div>
+      <div class="themu_list_cnt">
+        <div class="themu_list_cnt_l"><img src="images/zuopin2.png" alt=""></div>
+        <div class="themu_list_cnt_c">
+          <div class="themu_list_cnt_c_title">Hybrid Trap</div>
+          <div class="tips"><span>Dyna$ty</span><span class="dian">·</span><span>浏览次数：188次</span><span class="dian">·</span><span>BPM:140 </span></div>
+          <div class="small_tip"><span>Trap</span><span>Drake</span></div>
+        </div>
+        <div class="themu_list_cnt_r">
+          <p><img src="images/heart02.png" alt=""></p><p><img src="images/plus.png" alt=""></p><p><img src="images/share.png" alt=""></p><p class="price">¥200</p>
+        </div>
+      </div>
+      <div class="themu_list_cnt">
+        <div class="themu_list_cnt_l"><img src="images/zuopin.png" alt=""></div>
+        <div class="themu_list_cnt_c">
+          <div class="themu_list_cnt_c_title">Mindless</div>
+          <div class="tips"><span>Dyna$ty</span><span class="dian">·</span><span>浏览次数：188次</span><span class="dian">·</span><span>BPM:140 </span></div>
+          <div class="small_tip"><span>Trap</span><span>Drake</span><span>Travis Scott</span></div>
+        </div>
+        <div class="themu_list_cnt_r">
+          <p><img src="images/heart.png" alt=""></p><p><img src="images/plus.png" alt=""></p><p><img src="images/share.png" alt=""></p><p class="price">¥200</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--播放器-->
+<div class="audio-box">
+		<div class="audio-container">
+			<div class="audio-cover"></div>
+			<div class="audio-view">
+				<h3 class="audio-title">未知歌曲</h3>
+				<div class="audio-body">
+					<div class="audio-backs">
+						<div class="audio-this-time">00:00</div>
+						<div class="audio-count-time">00:00</div>
+						<div class="audio-setbacks">
+							<i class="audio-this-setbacks">
+								<span class="audio-backs-btn"></span>
+							</i>
+							<span class="audio-cache-setbacks">
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="audio-btn">
+					<div class="audio-select">
+						<div class="audio-prev"></div>
+						<div class="audio-play"></div>
+						<div class="audio-next"></div>
+						<div class="audio-menu"></div>
+						<div class="audio-volume"></div>
+					</div>
+					<div class="audio-set-volume">
+						<div class="volume-box">
+							<i><span></span></i>
+						</div>
+					</div>
+					<div class="audio-list">
+						<div class="audio-list-head">
+							<p>☺随心听</p>
+							<span class="menu-close">关闭</span>
+						</div>
+						<ul class="audio-inline">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="js/jquery001.min.js"></script>
+<script type="text/javascript" src="js/audio.js"></script>
+<script type="text/javascript">
+$(function(){
+	var song = [
+		{
+			'cover' : 'images/cover.jpg',
+			'src' : 'mp3/mygirl.mp3',
+			'title' : '可爱女人—周杰伦'
+		},
+		{
+			'cover' : 'images/cover2.jpg',
+			'src' : 'http://so1.111ttt.com:8282/2016/1/06m/24/199240145502.m4a?tflag=1494769732&pin=84bac9745fcebbd3ed5c598b97e15c39&ip=114.233.172.33#.mp3',
+			'title' : '不该 - 周杰伦、张惠妹'
+		},
+		{
+			'cover' : 'images/cover5.jpg',
+			'src' : 'http://so1.111ttt.com:8282/2015/1/10m/31/103311642007.m4a?tflag=1494769515&pin=26fa27d88422f6adb1fbca3f0f17333e&ip=114.233.172.33#.mp3',
+			'title' : '再见 - 邓紫棋'
+		},
+		{
+			'cover' : 'images/cover3.jpg',
+			'src' : 'http://so1.111ttt.com:8282/2017/1/05m/09/298092042172.m4a?tflag=1494768586&pin=f8d0e2e08864846460002b12768a9267&ip=114.233.172.33#.mp3',
+			'title' : '最后一次 - 庄心妍'
+		},
+		{
+			'cover' : 'images/cover1.jpg',
+			'src' : 'http://so1.111ttt.com:8282/2017/1/05m/09/298092036393.m4a?tflag=1494768868&pin=9a24cbf7571cb3524af1d6c883916169&ip=114.233.172.33#.mp3',
+			'title' : '远走高飞 - 金志文、徐佳莹'
+		}
+	];
+
+	var audioFn = audioPlay({
+		song : song,
+		autoPlay : false  //是否立即播放第一首，autoPlay为true且song为空，会alert文本提示并退出
+	});
+
+	/* 向歌单中添加新曲目，第二个参数true为新增后立即播放该曲目，false则不播放 */
+	audioFn.newSong({
+		'cover' : 'images/cover4.jpg',
+		'src' : 'http://so1.111ttt.com:8282/2016/5/06m/06/199061931237.m4a?tflag=1494769315&pin=a0b26b2dddd976d74724841f6d2641d6&ip=114.233.172.33#.mp3',
+		'title' : '极乐净土 - GARNiDELiA'
+	},false);
+
+	/* 暂停播放 */
+	//audioFn.stopAudio();
+
+	/* 开启播放 */
+	//audioFn.playAudio();
+
+	/* 选择歌单中索引为3的曲目(索引是从0开始的)，第二个参数true立即播放该曲目，false则不播放 */
+	//audioFn.selectMenu(3,true);
+
+	/* 查看歌单中的曲目 */
+	//console.log(audioFn.song);
+
+	/* 当前播放曲目的对象 */
+	//console.log(audioFn.audio);
+});
+</script>
+<!--
+<div class="footer">
+  <div class="f_logo"><img src="images/logo2.png" alt=""></div>
+  <div class="f_link">
+    <p>关于我们</p>
+    <ul class="sub_nav">
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#">联系我们</a></li>
+    </ul>
+  </div>
+  <div class="f_link">
+    <p>帮助中心</p>
+    <ul class="sub_nav">
+      <li><a href="#">使用指南</a></li>
+      <li><a href="#">服务条款</a></li>
+      <li><a href="#">音乐人分销协议</a></li>
+    </ul>
+  </div>
+  <div class="f_link">
+    <p>语言/language</p>
+    <ul class="sub_nav">
+      <li><a href="#">中文</a></li>
+      <li><a href="#">ENGLISH</a></li>
+    </ul>
+  </div>
+  <div class="shejiao">
+    <div class="sj_nav">
+      <div class="wx"><a href="#"><img src="images/weixin.png" alt=""></a><p class="wx_ewm"><img src="images/wx_ewm.png" alt=""></p></div>
+      <div class="wb"><a href="#"><img src="images/weibo.png" alt=""></a><p class="wb_ewm"><img src="images/wx_ewm.png" alt=""></p></div>
+    </div>
+  </div>
+</div>
+<div class="f_copyright">悦途文化传媒有限公司版权所有·<span>湘ICP备18019188号-1</span></div>
+-->
+</body>
+</html>

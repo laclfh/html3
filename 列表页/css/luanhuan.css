@@ -1,0 +1,49 @@
+/* CSS Document */
+img{
+	width: 100%;
+}
+
+#gallery {
+	width: 1200px;
+}
+
+#thumbs {
+	width: 1000px;
+	margin-top: 50px;
+}
+
+#thumbs .swiper-slide {
+	opacity: 0.3;
+}
+
+#thumbs .swiper-slide-thumb-active{
+	opacity: 1;
+}
+
+
+/*轮播切换*/
+/*
+
+#banner {
+    margin: 100px auto 0;
+}
+.swiper-slide{
+    width: 600px;
+    height: 450px;
+}
+.banner_page {
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+}
+.banner_page span {
+    margin: 0 10px;
+}
+h2 {
+    text-align: center;
+}
+.swiper-pagination-bullet-active {
+    width: 16px;
+    border-radius: 8px;
+}
+*/

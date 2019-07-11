@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font: 14px/18px 'HelveticaNeue-Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#sizer {
+    width: 248px;
+    height: 680px;
+  margin-left: 20px;
+}
+.list_search form {
+    width: 240px;
+    padding-top: 14px;
+    padding-left: 14px;
+}
+fieldset {
+    border: 0;
+    padding-bottom: 9px;
+}
+label {
+    display: block;
+    cursor: pointer;
+    line-height: 20px;
+    padding-bottom: 9px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+.radios {
+}
+.label_check input, .label_radio input {
+    margin-right: 5px;
+}
+.has-js .label_radio {
+    padding-left: 34px;
+}
+.has-js .label_radio {
+    background: url(../images/radio_off.png) no-repeat;
+}
+.has-js label.r_on {
+    background: url(../images/radio_on.png) no-repeat;
+}
+.has-js .label_radio input {
+    position: absolute;
+    left: -9999px;
+}
+.radios h3 {
+    display: block;
+    width: 240px;
+    position: relative;
+    padding: 15px 0;
+}
+.radios h3 span {
+    font-weight: normal;
+    position: absolute;
+    right: 14px;
+}
+.radios h3 span a {
+    text-decoration: none;
+    color: #7C07B8;
+    font-size: 14px;
+}
+
+/*数据选择*/
+#box1{
+	width: 268px;
+}
+.range{
+	position: relative;	
+	height: 50px;
+	margin: 0 14px;
+	width: 180px;
+	/*overflow: hidden;*/
+}
+.chunk-one,.chunk-two{
+	position: absolute;
+	left: 0;
+	top: 17px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fff;
+	z-index: 10;
+	cursor: pointer;
+	transition: all .05s linear; 
+	border: 2px solid #8c26eb;
+	box-sizing: border-box;	
+}
+.range .chunk-two{
+	left: 100%;
+	background-color: #fff ;
+}
+.chunk-one strong,.chunk-two strong{
+	display: inline-block;
+	margin-top: 18px;
+	text-align: center;
+	font-weight: normal;
+}
+.strip-one,.strip-two{
+	position: absolute;
+	left: 0;
+	top: 25px;
+	height: 6px;
+	width: 100%;
+	background-color: #999;
+}
+.strip-two{
+	width: 100%;
+	background-color: #8c26eb;
+}
+
+.ipnut_num {
+  margin-left:10px;
+  margin-top: 30px;
+}
+
+.ipnut_num span{
+  padding: 0 20px;
+}
+.ipnut_num input{
+  display: inline-block;
+  width: 74px;
+  height: 28px;
+  outline: none;
+  border: none;
+  background: url(../images/input_bg.png) no-repeat;
+  text-align: center;
+  color: #fff;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.music_List_right {
+  width: 932px;
+  min-height: 740px;
+  float: left;
+}
+
+.r_top {
+  float: left;
+  width: 852px;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.fg_title{
+  width: 150px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 30px;
+  float: left;
+}
+
+.r_top p{
+  float: left;
+  width: 94px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #fff;
+  font-size: 24px;
+  margin-right: 20px;
+  position: relative;
+}
+
+
+.r_top p span{
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  cursor: pointer;
+}
+.themu_list_cnt {
+  width: 852px;
+  float: left;
+  margin-left: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #323232;
+  margin-bottom: 30px;
+}
+
+.themu_list {
+  float: left;
+  margin-top: 30px;
+}
+
+.themu_list_cnt_c {
+  float: left;
+  width: 360px;
+  margin-left: 33px;
+}
+
+.themu_list_cnt_l {
+  float: left;
+  width: 100px;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px solid #363636;
+}
+
+
+
+.tips {
+  width: 360px;
+  height: 24px;
+  line-height: 24px;
+  background: url(../images/div.png)center bottom no-repeat;
+}
+
+.tips span{
+  font-size: 16px;
+  color: #b1afb3;
+}
+.themu_list_cnt_c_title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.dian {
+  padding: 0 18px;
+}
+
+
+.small_tip{
+  margin-top: 20px;
+}
+.small_tip span{
+  padding: 6px 12px;
+  border: 1px solid #fff;
+  margin-right: 12px;
+}
+
+.themu_list_cnt_r {
+  float: right;
+  margin-left: 20px;
+  height: 100px;
+}
+
+.themu_list_cnt_r p{
+  float: left;
+  margin-top: 40px;
+  margin-right: 25px;
+}
+
+.themu_list_cnt_r p.price{
+   margin-top: 25px;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-indent: 50px;
+  background: url(../images/buy_btn.png) no-repeat;
+}
